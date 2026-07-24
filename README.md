@@ -65,9 +65,13 @@ An ESP32-based environmental monitoring solution using water-level, rain, soil-m
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tharunsasanka&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00e5ff&icon_color=00e5ff&text_color=ffffff"/>
+<a href="https://github.com/tharunsasanka">
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=tharunsasanka&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00e5ff&icon_color=00e5ff&text_color=ffffff&cache_seconds=86400" alt="Tharun Sasanka GitHub statistics"/>
+</a>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharunsasanka&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00e5ff&text_color=ffffff"/>
+<a href="https://github.com/tharunsasanka">
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=tharunsasanka&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&title_color=00e5ff&text_color=ffffff&langs_count=8&cache_seconds=86400" alt="Tharun Sasanka top languages"/>
+</a>
 
 </div>
 
