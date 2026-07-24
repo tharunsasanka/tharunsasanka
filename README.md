@@ -80,7 +80,7 @@ An ESP32-based environmental monitoring solution using water-level, rain, soil-m
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-tharunsasanka-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tharunsasanka)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tharun_Sasanka-111111?style=for-the-badge&logo=linkedin&logoColor=00a0dc)](https://www.linkedin.com/in/tharun-sasanka-8280ba2b4/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tharun_Sasanka-111111?style=for-the-badge&logo=linkedin&logoColor=00a0dc)](https://www.linkedin.com/in/tharun-sasanka-8280ba2b4/)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-111111?style=for-the-badge&logo=gmail&logoColor=ea4335)](mailto:tharunsasanka0@gmail.com)
 
 </div>
