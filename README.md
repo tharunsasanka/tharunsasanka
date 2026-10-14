@@ -45,7 +45,6 @@ Status     : [ ACCESS GRANTED ]</pre>
 
 <img src="./assets/hacker-typing.gif" alt="Smooth looping animation of a hooded cybersecurity researcher typing at a glowing laptop" width="350" />
 
-<sub>ANIMATED HACKER // LOCAL GIF ASSET</sub>
 
 </td>
 </tr>
@@ -157,42 +156,29 @@ mindset: "Explore. Investigate. Build. Secure."
 <img height="180" src="./assets/stats-overview.svg" alt="GitHub profile analytics illustration" />
 <img height="180" src="./assets/stats-languages.svg" alt="Languages illustration" />
 <br /><br />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tharunsasanka&bg_color=081726&color=d6f5f9&line=00e5ff&point=4effc9&area_color=007e99&area=true&hide_border=true" width="98%" alt="GitHub contribution activity graph" />
+<a href="https://github.com/tharunsasanka?tab=overview">
+  <img src="./assets/contribution-graph.svg" width="98%" alt="GitHub contribution activity generated from verified GitHub contribution data" />
+</a>
 <br />
-<sub>Statistics are live third-party images and may occasionally be delayed or unavailable; no invented numbers are used here.</sub>
+<sub>Contribution calendar is generated from GitHub data after the included workflow runs. Click to see live activity.</sub>
 </div>
 
 ---
 
-## 🧿 `05 // VISUAL BLUEPRINT`
-
-The **asset artwork** is included in this repository and appears in the [interactive site](https://tharunsasanka.github.io/tharunsasanka/) as part of the design gallery.
-
-<details>
-<summary><strong>Expand the original cybersecurity portfolio concept image</strong></summary>
-<br />
-<div align="center"><img src="./assets/cyber-concept.png" width="490" alt="Cybersecurity portfolio mockup with a neon cyan theme and cybersecurity dashboard panels" /></div>
-<br />
-<sub>This is concept artwork; any statistics shown inside the illustration are mock data, not the actual account metrics.</sub>
-</details>
-
----
-
-## 📡 `06 // CONNECT`
+## 📡 `05 // CONNECT`
 
 <div align="center">
+
 <a href="https://github.com/tharunsasanka"><img src="https://img.shields.io/badge/GITHUB-tharunsasanka-0B1723?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile" /></a>
-<a href="https://www.linkedin.com/in/tharun-sasanka-8280ba2b4/"><img src="https://img.shields.io/badge/LINKEDIN-Tharun_Sasanka-0B1723?style=for-the-badge&logo=linkedin&logoColor=00a0dc" alt="LinkedIn profile" /></a>
+<a href="https://www.linkedin.com/in/tharun-sasanka-8280ba2b4/"><img src="./assets/linkedin-connect.svg" height="28" alt="LinkedIn — Tharun Sasanka" /></a>
 <a href="mailto:tharunsasanka0@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT_ME-0B1723?style=for-the-badge&logo=gmail&logoColor=ea4335" alt="Email Tharun" /></a>
 
 <br /><br />
 
-```text
-╔══════════════════════════════════════════╗
-║            [ ACCESS GRANTED ]            ║
-║  SECURE  //  INVESTIGATE  //  BUILD      ║
-╚══════════════════════════════════════════╝
-```
+<p align="center"><strong><code>[ ACCESS GRANTED ]</code></strong></p>
+<p align="center"><strong>SECURE &nbsp; // &nbsp; INVESTIGATE &nbsp; // &nbsp; BUILD</strong></p>
+
+<br /><br />
 
 <sub>Made to keep learning, exploring and building safer technology.</sub>
 
@@ -209,6 +195,7 @@ The **asset artwork** is included in this repository and appears in the [interac
 - **Live portfolio page:** `index.html`, `styles.css` and `script.js` produce the responsive website, including a smoother animated SVG at `assets/hacker-animated.svg`.
 - **Publish with GitHub Pages:** Repository **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**. Once deployed, the site is expected at `https://tharunsasanka.github.io/tharunsasanka/` (assuming the repository is named `tharunsasanka`).
 - Keep the **`assets/` folder** next to `README.md` and `index.html`. Otherwise the local pictures will not appear.
-- Dynamic badges and GitHub statistics use external services and may be temporarily unavailable.
+- The contribution graph is generated from verified GitHub activity using `.github/workflows/contribution-graph.yml` and `scripts/generate_contribution_graph.py`. Run the workflow once after uploading the files and allow Actions read/write permissions if necessary.
+- Other dynamic badges may depend on third-party services.
 
 </details>

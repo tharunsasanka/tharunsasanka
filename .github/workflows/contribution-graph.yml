@@ -1,0 +1,29 @@
+name: Update GitHub Contribution Graph
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "21 1 * * *"
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate accurate contribution SVG from GitHub GraphQL
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: tharunsasanka
+        run: python scripts/generate_contribution_graph.py
+      - name: Commit refreshed graph (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-graph.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh verified contribution graph"
+            git push
+          fi
