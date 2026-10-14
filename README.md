@@ -175,27 +175,21 @@ mindset: "Explore. Investigate. Build. Secure."
 
 <br /><br />
 
-<p align="center"><strong><code>[ ACCESS GRANTED ]</code></strong></p>
-<p align="center"><strong>SECURE &nbsp; // &nbsp; INVESTIGATE &nbsp; // &nbsp; BUILD</strong></p>
+<table align="center">
+<tr><td align="center">
+
+<strong><code>[ ACCESS GRANTED ]</code></strong>
+
+<br />
+
+<strong>🛡️ SECURE &nbsp; // &nbsp; 🔎 INVESTIGATE &nbsp; // &nbsp; 💻 BUILD</strong>
 
 <br /><br />
 
 <sub>Made to keep learning, exploring and building safer technology.</sub>
 
+</td></tr>
+</table>
+
 </div>
 
----
-
-<details>
-<summary>🛠️ <strong>How this profile README and the live site work</strong></summary>
-<br />
-
-- **GitHub profile README:** This file displays in the repository named exactly `tharunsasanka`, under the account `tharunsasanka`.
-- **Animated illustration:** `assets/hacker-typing.gif` loops directly inside the README. GitHub READMEs do not run page JavaScript.
-- **Live portfolio page:** `index.html`, `styles.css` and `script.js` produce the responsive website, including a smoother animated SVG at `assets/hacker-animated.svg`.
-- **Publish with GitHub Pages:** Repository **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**. Once deployed, the site is expected at `https://tharunsasanka.github.io/tharunsasanka/` (assuming the repository is named `tharunsasanka`).
-- Keep the **`assets/` folder** next to `README.md` and `index.html`. Otherwise the local pictures will not appear.
-- The contribution graph is generated from verified GitHub activity using `.github/workflows/contribution-graph.yml` and `scripts/generate_contribution_graph.py`. Run the workflow once after uploading the files and allow Actions read/write permissions if necessary.
-- Other dynamic badges may depend on third-party services.
-
-</details>
