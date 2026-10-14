@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" width="600" height="520" role="img" aria-labelledby="title desc">
+<title id="title">Animated cybersecurity researcher in a hoodie at a laptop</title>
+<desc id="desc">An illustrated anonymous cybersecurity student typing at a glowing terminal, with gentle breathing and typing movements.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b2236"/><stop offset="1" stop-color="#06101d"/></linearGradient>
+<linearGradient id="hood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1e4764"/><stop offset=".42" stop-color="#102b42"/><stop offset="1" stop-color="#06111c"/></linearGradient>
+<linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#083b4d"/><stop offset="1" stop-color="#071621"/></linearGradient>
+<linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#55ffe0"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft"><feGaussianBlur stdDeviation="17"/></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#27a5cc" stroke-width=".6" opacity=".18"/></pattern>
+</defs>
+<rect x="2" y="2" width="596" height="516" rx="30" fill="url(#bg)" stroke="#205171" stroke-width="2"/>
+<rect x="10" y="10" width="580" height="500" rx="24" fill="url(#grid)"/>
+<circle cx="302" cy="260" r="179" fill="#00c9e8" opacity=".08" filter="url(#soft)"/>
+<circle cx="300" cy="267" r="195" fill="none" stroke="#1ac8db" stroke-opacity=".2" stroke-dasharray="4 15"/>
+<circle cx="300" cy="267" r="157" fill="none" stroke="#2acfee" stroke-opacity=".12"/>
+<path d="M40 110H128L144 94H194M405 106H498L516 90H562M31 419H113L133 439H207M424 454H518L539 472H574" stroke="#00d9e6" stroke-opacity=".25" fill="none" stroke-width="2"/>
+<g font-family="monospace" font-size="12" fill="#81ddeb" opacity=".95"><text x="42" y="51">&gt; SECURE_SESSION</text><text x="444" y="52">SYS // 01</text><text x="37" y="483">DFIR // ACTIVE</text></g>
+<g class="signal"><circle cx="521" cy="133" r="5" fill="#4effca" filter="url(#glow)"/><path d="M537 132h25" stroke="#4effca" stroke-width="2"/></g>
+<!-- person and desktop -->
+<g transform="translate(0 0.00)">
+<!-- hooded shoulders -->
+<path d="M125 432C140 350 171 326 224 303L268 296H329C389 299 428 340 446 433L420 469H151Z" fill="url(#hood)" stroke="#247fa2" stroke-width="3"/>
+<path d="M166 427C169 359 196 340 239 318L277 323L256 460H170Z" fill="#13324b"/>
+<path d="M428 427C409 358 382 343 359 327L330 324L345 462H429Z" fill="#0c2338"/>
+<!-- hood silhouette -->
+<path d="M179 313C184 244 199 170 259 134C276 122 305 110 330 131C380 159 406 220 414 305L387 342L343 352L239 348Z" fill="url(#hood)" stroke="#2184a4" stroke-width="3"/>
+<!-- interior shadow face and hood rim -->
+<path d="M220 287C229 221 236 188 274 160C301 140 340 170 369 215C382 238 384 274 371 303C346 327 242 326 220 287Z" fill="#030b13" stroke="#1e5a77" stroke-width="2"/>
+<path d="M213 283C221 207 254 151 297 143C334 142 372 188 391 279" stroke="#3f7997" stroke-width="13" opacity=".8" fill="none" stroke-linecap="round"/>
+<!-- luminous shadow mask/face -->
+<path d="M258 260C269 245 326 242 345 260L335 309C313 324 283 322 267 308Z" fill="#071c2a"/>
+<path d="M272 272Q289 263 302 271M313 271Q329 263 339 272" stroke="#76faff" stroke-width="4" stroke-linecap="round" fill="none" filter="url(#glow)" opacity="1.000"/>
+<path d="M289 296H321" stroke="#0b5063" stroke-width="3" stroke-linecap="round"/>
+<!-- hoodie zip/drawstrings -->
+<path d="M293 336L299 452" stroke="#38bbd3" stroke-width="2" opacity=".7"/>
+<path d="M270 334L267 385M337 338L343 384" stroke="#9bdde4" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<!-- arms and hands, typed positions -->
+<g transform="rotate(0.00 220 340)">
+<path d="M180 371C183 344 195 340 214 355L262 408L284 421L271 446C228 437 186 415 180 371Z" fill="#143d53" stroke="#2d829e" stroke-width="2"/>
+<path d="M270 415Q280 404 298 416L316 436L305 448L278 440Z" fill="#244f62" stroke="#67b0c3" stroke-width="1.5"/>
+</g>
+<g transform="rotate(0.00 375 340)">
+<path d="M420 371C417 344 400 340 381 355L334 410L313 421L327 445C365 439 414 409 420 371Z" fill="#0e2d44" stroke="#2d829e" stroke-width="2"/>
+<path d="M337 411Q326 404 310 418L291 433L304 448L334 435Z" fill="#244f62" stroke="#67b0c3" stroke-width="1.5"/>
+</g>
+</g>
+<!-- laptop foreground -->
+<path d="M178 348H422Q432 348 430 360L405 458H202L171 361Q168 348 178 348Z" fill="#061521" stroke="#38c2dc" stroke-width="3"/>
+<path d="M187 359H415L393 447H213Z" fill="url(#screen)" stroke="#286b85" stroke-width="1"/>
+<g transform="translate(0 0.00)"><rect x="205" y="359" width="190" height="4" fill="#40efff" opacity=".18" filter="url(#glow)"/></g>
+<g fill="#00e5ff" font-family="monospace" font-size="11"><text x="223" y="382">tharun@cybersec:~$</text><text x="223" y="401" fill="#82dbe4">&gt; access --granted</text><text x="223" y="421" fill="#62ffd4">[ SYSTEM SECURE ]</text></g>
+<rect class="cursor" x="332" y="410" width="7" height="12" fill="#44ffe2"/>
+<path d="M198 456H416L456 475Q461 481 447 485H159Q144 481 149 475Z" fill="#172f43" stroke="#2e89a8" stroke-width="2"/>
+<path d="M252 470H360L369 475H243Z" fill="#2a7b90" opacity=".65"/>
+<path d="M182 468H423" stroke="#66f4ff" opacity=".5"/>
+<g opacity=".85"><circle cx="72" cy="318" r="3" fill="#00e5ff"/><circle cx="535" cy="336" r="3" fill="#00e5ff"/><path d="M72 318h64m339 18h60" stroke="#00a3bb" stroke-width="1.5"/></g>
+</svg>
