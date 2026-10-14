@@ -175,21 +175,17 @@ mindset: "Explore. Investigate. Build. Secure."
 
 <br /><br />
 
-<table align="center">
-<tr><td align="center">
+<p align="center">
+  <img src="https://img.shields.io/badge/ACCESS-GRANTED-00E5FF?style=for-the-badge&labelColor=0B1723&logo=hackthebox&logoColor=00E5FF" alt="Access Granted" />
+</p>
 
-<strong><code>[ ACCESS GRANTED ]</code></strong>
+<p align="center">
+  <strong>🛡️ SECURE &nbsp;&nbsp; • &nbsp;&nbsp; 🔍 INVESTIGATE &nbsp;&nbsp; • &nbsp;&nbsp; 💻 BUILD</strong>
+</p>
 
-<br />
-
-<strong>🛡️ SECURE &nbsp; // &nbsp; 🔎 INVESTIGATE &nbsp; // &nbsp; 💻 BUILD</strong>
-
-<br /><br />
-
-<sub>Made to keep learning, exploring and building safer technology.</sub>
-
-</td></tr>
-</table>
+<p align="center">
+  <sub>— Made to keep learning, exploring, and building safer technology —</sub>
+</p>
 
 </div>
 
